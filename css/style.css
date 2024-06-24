@@ -1,0 +1,22 @@
+
+/* universal style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* navbar style */
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+    align-items: center;
+}
+
+
+
+
+
+
