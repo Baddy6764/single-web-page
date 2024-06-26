@@ -30,6 +30,7 @@
             ><img
               src="../images/home_FILL0_wght300_GRAD0_opsz24.jpg"
               alt="home-image"
+              class="home-image"
           /></span>
           <span style="font-weight: bold; font-size: 15px; padding: 0 0 0 7px"
             >Overview</span
@@ -134,6 +135,7 @@
           width: 330px;
           max-width: 500px;
         "
+        class="patients_list"
       >
         <div>
           <span style="font-size: 23px; font-weight: bold">Patients</span>
@@ -477,6 +479,8 @@
           padding: 20px;
           height: 700px;
           border-radius: 10px;
+          width: 700px;
+          max-width: 800px;
         "
       >
         <h3 style="padding-top: 15px; padding-bottom: 25px">
@@ -522,7 +526,7 @@
             ></canvas>
           </div>
           <div style="margin-left: 40px">
-            <div>
+            <div style="border-bottom: 1px solid #cbc8d4">
               <span
                 style="
                   display: inline-block;
@@ -634,7 +638,9 @@
               margin-left: 13px;
             "
           >
-            <dd><img src="../icons/temperature.svg" alt="temprature" /></dd>
+            <dd style="padding-bottom: 20px">
+              <img src="../icons/temperature.svg" alt="temprature" />
+            </dd>
             <article
               style="
                 font-size: 16px;
@@ -673,7 +679,9 @@
               margin-left: 13px;
             "
           >
-            <dd><img src="../icons/HeartBPM.svg" alt="heart" /></dd>
+            <dd style="padding-bottom: 20px">
+              <img src="../icons/HeartBPM.svg" alt="heart" />
+            </dd>
             <article
               style="
                 font-size: 16px;
@@ -845,39 +853,415 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div>
-        <dd style="font-size: 24px;font-family: Manrope;font-weight: bolder;color: #072635;">Diagnostic List</dd>
+      <div
+        style="
+          background-color: #ffffff;
+          width: 670px;
+          max-width: 800px;
+          padding-right: 30px;
+          border-radius: 15px;
+        "
+        class="diagList"
+      >
+        <dd
+          style="
+            font-size: 24px;
+            font-family: Manrope;
+            font-weight: bolder;
+            color: #072635;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            padding-top: 15px;
+          "
+        >
+          Diagnostic List
+        </dd>
+        <div
+          class="d-inline-block hefje"
+          style="
+            margin-left: 302px;
+            height: 28vh;
+            border-radius: 5px;
+            width: 6px;
+            background-color: gray;
+            border: 1px solid grey;
+            opacity: 0.2;
+          "
+        ></div>
+        <div
+          class="d-inline-block jdhsc"
+          style="
+            margin-left: 302px;
+            height: 100px;
+            border-radius: 5px;
+            width: 6px;
+            background-color: black;
+            border: 1px solid gray;
+          "
+        ></div>
         <div>
-            <table>
-                <tr>
-                  <td>Firstname</td>
-                  <td>Lastname</td>
-                <td>Savings</td>
-                </tr>
-                <tr>
-                  <td>Peter</td>
-                  <td>Griffin</td>
-                  <td>$100</td>
-                </tr>
-                <tr>
-                  <td>Lois</td>
-                  <td>Griffin</td>
-                  <td>$150</td>
-                </tr>
-                <tr>
-                  <td>Joe</td>
-                  <td>Swanson</td>
-                  <td>$300</td>
-                </tr>
-                <tr>
-                  <td>Cleveland</td>
-                  <td>Brown</td>
-                  <td>$250</td>
-                </tr>
-              </table>
+          <table>
+            <tr style="background-color: #f6f7f8">
+              <td
+                style="
+                  padding-bottom: 10px;
+                  font-family: Manrope;
+                  font-weight: bold;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 10px;
+                  padding-left: 10px;
+                "
+              >
+                Problem/Diagnosis
+              </td>
+              <td
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 10px;
+                  font-family: Manrope;
+                  font-weight: bold;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 10px;
+                "
+              >
+                Description
+              </td>
+              <td
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 10px;
+                  font-family: Manrope;
+                  font-weight: bold;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 10px;
+                "
+              >
+                Status
+              </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f6f7f8">
+              <td
+                class="hyptension"
+                style="
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                  padding-left: 10px;
+                "
+              ></td>
+              <td
+                class="cHighBlood"
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+              <td
+                class="underOb"
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f6f7f8">
+              <td
+                class="type2Dia"
+                style="
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                  padding-left: 10px;
+                "
+              ></td>
+              <td
+                class="inResis"
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+              <td
+                class="cured"
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f6f7f8">
+              <td
+                class="asthma"
+                style="
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                  padding-left: 10px;
+                "
+              ></td>
+              <td
+                class="recuE"
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+              <td
+                class="inative"
+                style="
+                  padding-left: 70px;
+                  padding-bottom: 20px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+            </tr>
+            <tr
+              style="border-bottom: 1px solid #f6f7f8; background-color: white"
+            >
+              <td
+                class="djdisease"
+                style="
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                  padding-left: 10px;
+                "
+              ></td>
+              <td
+                class="Osteoarthritis"
+                style="
+                  padding-left: 70px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+              <td
+                class="Untreated"
+                style="
+                  padding-left: 70px;
+                  font-family: Manrope;
+                  font-weight: normal;
+                  font-size: 14px;
+                  color: #072635;
+                  padding-top: 20px;
+                "
+              ></td>
+            </tr>
+          </table>
         </div>
+      </div>
+
+      <div
+        style="
+          background-color: #ffffff;
+          width: 335px;
+          max-width: 500px;
+          border-radius: 15px;
+          height: 300px;
+        "
+        class="labResult"
+      >
+        <dd
+          style="
+            font-family: Manrope;
+            font-weight: bolder;
+            font-size: 24px;
+            color: #072635;
+            margin-bottom: 10px;
+            padding-top: 15px;
+            margin-left: 14px;
+          "
+        >
+          Lab Results
+        </dd>
+        <div
+          class="d-inline-block hebhjv"
+          style="
+            margin-left: 302px;
+            height: 20vh;
+            border-radius: 5px;
+            width: 6px;
+            background-color: gray;
+            border: 1px solid grey;
+            opacity: 0.2;
+          "
+        ></div>
+        <div
+          class="d-inline-block bcjdc"
+          style="
+            margin-left: 302px;
+            height: 50px;
+            border-radius: 5px;
+            width: 6px;
+            background-color: black;
+            border: 1px solid gray;
+          "
+        ></div>
+        <dd
+          style="
+            margin-left: 14px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            class="bloodTest"
+            style="
+              font-family: Manrope;
+              font-weight: normal;
+              font-size: 14px;
+              color: #072635;
+            "
+          ></span>
+          <span style="margin-left: 160px"
+            ><img
+              src="../icons/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+              alt="wght"
+          /></span>
+        </dd>
+        <dd
+          style="
+            margin-left: 14px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: #f6f7f8;
+            width: 280px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            class="ctScan"
+            style="
+              font-family: Manrope;
+              font-weight: normal;
+              font-size: 14px;
+              color: #072635;
+            "
+          ></span>
+          <span style="margin-left: 175px"
+            ><img
+              src="../icons/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+              alt="wght"
+          /></span>
+        </dd>
+        <dd
+          style="
+            margin-left: 14px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            class="rReports"
+            style="
+              font-family: Manrope;
+              font-weight: normal;
+              font-size: 14px;
+              color: #072635;
+            "
+          ></span>
+          <span style="margin-left: 120px"
+            ><img
+              src="../icons/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+              alt="wght"
+          /></span>
+        </dd>
+        <dd
+          style="
+            margin-left: 14px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            class="xRays"
+            style="
+              font-family: Manrope;
+              font-weight: normal;
+              font-size: 14px;
+              color: #072635;
+            "
+          ></span>
+          <span style="margin-left: 191px"
+            ><img
+              src="../icons/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+              alt="wght"
+          /></span>
+        </dd>
+        <dd
+          style="
+            margin-left: 14px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+          "
+        >
+          <span
+            style="
+              font-family: Manrope;
+              font-weight: normal;
+              font-size: 14px;
+              color: #072635;
+            "
+            >Urine Test</span
+          >
+          <span style="margin-left: 170px"
+            ><img
+              src="../icons/download_FILL0_wght300_GRAD0_opsz24 (1).svg"
+              alt="wght"
+          /></span>
+        </dd>
+      </div>
     </div>
 
     <script>
@@ -926,7 +1310,23 @@
               dob,
               contactInfo,
               eContacts,
-              InsProvider = "";
+              InsProvider,
+              hyptension,
+              cHighBlood,
+              underOb,
+              type2Dia,
+              inResis,
+              cured,
+              asthma,
+              recuE,
+              inative,
+              djdisease,
+              Osteoarthritis,
+              Untreated,
+              bloodTest,
+              ctScan,
+              rReports,
+              xRays = "";
 
             if (index === 3) {
               name = value.name;
@@ -958,6 +1358,22 @@
               contactInfo = value.phone_number;
               eContacts = value.emergency_contact;
               InsProvider = value.insurance_type;
+              hyptension = value.diagnostic_list[0].name;
+              cHighBlood = value.diagnostic_list[0].description;
+              underOb = value.diagnostic_list[0].status;
+              type2Dia = value.diagnostic_list[1].name;
+              inResis = value.diagnostic_list[1].description;
+              cured = value.diagnostic_list[1].status;
+              asthma = value.diagnostic_list[2].name;
+              recuE = value.diagnostic_list[2].description;
+              inative = value.diagnostic_list[2].status;
+              djdisease = value.diagnostic_list[3].name;
+              Osteoarthritis = value.diagnostic_list[3].description;
+              Untreated = value.diagnostic_list[3].status;
+              bloodTest = value.lab_results[0];
+              ctScan = value.lab_results[1];
+              rReports = value.lab_results[2];
+              xRays = value.lab_results[3];
 
               document.querySelector("#name").innerHTML = name;
               document.querySelector("#jProfile_pic").src = profile_pic;
@@ -982,9 +1398,26 @@
               document.querySelector(".contactInfo").innerHTML = contactInfo;
               document.querySelector(".eContacts").innerHTML = eContacts;
               document.querySelector(".InsProvider").innerHTML = InsProvider;
+              document.querySelector(".hyptension").innerHTML = hyptension;
+              document.querySelector(".cHighBlood").innerHTML = cHighBlood;
+              document.querySelector(".underOb").innerHTML = underOb;
+              document.querySelector(".type2Dia").innerHTML = type2Dia;
+              document.querySelector(".inResis").innerHTML = inResis;
+              document.querySelector(".cured").innerHTML = cured;
+              document.querySelector(".asthma").innerHTML = asthma;
+              document.querySelector(".recuE").innerHTML = recuE;
+              document.querySelector(".inative").innerHTML = inative;
+              document.querySelector(".djdisease").innerHTML = djdisease;
+              document.querySelector(".Osteoarthritis").innerHTML =
+                Osteoarthritis;
+              document.querySelector(".Untreated").innerHTML = Untreated;
+              document.querySelector(".bloodTest").innerHTML = bloodTest;
+              document.querySelector(".ctScan").innerHTML = ctScan;
+              document.querySelector(".rReports").innerHTML = rReports;
+              document.querySelector(".xRays").innerHTML = xRays;
 
               console.log(value);
-              console.log(dob);
+              console.log(bloodTest);
 
               //chart
 

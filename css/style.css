@@ -6,8 +6,8 @@
   list-style-type: none;
 }
 
-.body{
-    background-color: #F6F7F8;
+.body {
+  background-color: #f6f7f8;
 }
 
 /* navbar style */
@@ -18,6 +18,10 @@
   align-items: center;
   background-color: white;
   border-radius: 50px;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
 }
 
 /* 
@@ -27,57 +31,171 @@ patient profile style */
   width: 300px;
 }
 
-.ghfew{
-    position: relative;
-    position: absolute;
-    top: 205px;
+.ghfew {
+  position: relative;
+  position: absolute;
+  top: 205px;
 }
 
-.gvvecfwe{
-    position: relative;
-    position: absolute;
-    top: 205px;
+.gvvecfwe {
+  position: relative;
+  position: absolute;
+  top: 205px;
 }
 
-.chart-dev{
+.hefje {
+  position: relative;
+  position: absolute;
+  left: 885px;
+  top: 965px;
+  /* bottom: 0; */
+}
+
+.jdhsc {
+  position: relative;
+  position: absolute;
+  left: 885px;
+  top: 965px;
+}
+
+.chart-dev {
+  display: flex;
+  width: 650px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.diagnosis_contents {
+  display: flex;
+  /* margin-left: 20px; */
+}
+
+.showInfo-button-div button[type="button"] {
+  padding: 7px 24px 7px 24px;
+  background-color: #01f0d0;
+  font-size: 14px;
+  font-family: Manrope;
+  color: #072635;
+  font-weight: 700;
+  border: 1px solid #01f0d0;
+  border-radius: 15px;
+}
+
+.jessica-profile {
+  background-color: #ffffff;
+  width: 400px;
+  max-width: 500px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 700px;
+  margin-top: 20px;
+  max-height: 950px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+table {
+  /* width: 100%; */
+  margin-left: 30px;
+}
+
+.hebhjv {
+  position: relative;
+  position: absolute;
+  left: 1370px;
+  top: 928px;
+}
+
+.bcjdc {
+  position: relative;
+  position: absolute;
+  left: 1370px;
+  top: 928px;
+}
+
+.diagList {
+  margin-left: 400px;
+  margin-top: -270px;
+}
+
+.labResult {
+  margin-top: -230px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-ul {
     display: flex;
-    width: 650px;
-    max-width: 800px;
-    border-radius: 10px;
-}
+    flex-direction: column;
+    width: 800px;
+    max-width: 900px;
+    height: auto;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    justify-content: center;
+  }
 
-.diagnosis_contents{
+  .main {
     display: flex;
-    /* margin-left: 20px; */
-}
-
-.showInfo-button-div button[type="button"]{
-    padding: 7px 24px 7px 24px;
-    background-color: #01F0D0;
-    font-size: 14px;
-    font-family: Manrope;
-    color: #072635;
-    font-weight: 700;
-    border: 1px solid #01F0D0;
-    border-radius: 15px;
-}
-
-.jessica-profile{
-    background-color: #FFFFFF;
-    width: 400px;
-    max-width: 500px;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 700px;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .diagList {
     margin-top: 20px;
-    max-height: 950px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .labResult {
+    margin-top: 0;
+    margin-left: 170px;
+  }
+  .jessica-profile {
+    margin-left: 150px;
+  }
+  .patients_list {
+    margin-left: 160px;
+  }
+  .ghfew {
+    position: relative;
+    position: absolute;
+    top: 300px;
+  }
+
+  .gvvecfwe {
+    position: relative;
+    position: absolute;
+    top: 300px;
+  }
+  .hebhjv {
+    position: relative;
+    position: absolute;
+    left: 175px;
+    top: 3140px;
+  }
+
+  .bcjdc {
+    position: relative;
+    position: absolute;
+    left: 175px;
+    top: 3140px;
+  }
+  .hefje {
+    position: relative;
+    position: absolute;
+    left: 338px;
+    top: 2780px;
+  }
+
+  .jdhsc {
+    position: relative;
+    position: absolute;
+    left: 338px;
+    top: 2780px;
+  }
 }
-
-.main{
-    display: flex;
-justify-content: space-evenly;
-}
-
-
-
